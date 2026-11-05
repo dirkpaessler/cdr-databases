@@ -20,9 +20,13 @@ One folder per release under `v1/`, the newest also under `v1/latest/`; `manifes
 - Captain Drawdown and Dirk Paessler (2026). CDR Researcher Census, version 2026-11.4. Carbon Drawdown Initiative. https://captaindrawdown.com/data/researchers/ (CC licence, see page). https://doi.org/10.5281/zenodo.23957367
 - Captain Drawdown and Dirk Paessler (2026). CDR Shops, version 2026-11.4. Carbon Drawdown Initiative. https://captaindrawdown.com/data/shops/ (CC licence, see page). https://doi.org/10.5281/zenodo.23957405
 
-## Other channels
+## Get the data
 
-JSON API without a key: https://captaindrawdown.com/api/ · MCP server for Claude, ChatGPT and Cursor: `pip install captain-drawdown-mcp` · Hugging Face: https://huggingface.co/carbondrawdowninitiative · Zenodo: archived copies with DOIs.
+- Browse a release folder (`v1/<version>/`) and open any CSV or JSON here on GitHub; `v1/latest/` is always the newest release.
+- One zip per release on the [Releases](https://github.com/dirkpaessler/cdr-databases/releases) page.
+- Straight into pandas: `pd.read_csv("https://raw.githubusercontent.com/dirkpaessler/cdr-databases/main/v1/latest/companies.csv")`
+- Everything with history: `git clone https://github.com/dirkpaessler/cdr-databases.git`
+- JSON API without a key: https://captaindrawdown.com/api/ · MCP server for Claude, ChatGPT and Cursor: `pip install captain-drawdown-mcp` · Hugging Face: https://huggingface.co/carbondrawdowninitiative · Zenodo: archived copies with DOIs (table above).
 
 ## Corrections
 
