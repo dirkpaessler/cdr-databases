@@ -1,0 +1,54 @@
+# A tag release-<version> becomes a GitHub release: the release folder as a
+# zip, the main files attached, notes from the manifest (GITHUB_TOKEN only).
+name: Data release
+
+on:
+  push:
+    tags:
+      - "release-*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect the release files
+        id: files
+        run: |
+          set -e
+          VERSION="${GITHUB_REF_NAME#release-}"
+          DIR="v1/$VERSION"
+          test -d "$DIR" || { echo "no folder $DIR"; exit 1; }
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          mkdir -p out
+          (cd v1 && zip -qr "../out/captaindrawdown-data-$VERSION.zip" "$VERSION")
+          for f in companies.csv companies.json shops.csv shops.json researchers_by_country.csv researchers_by_pathway.csv manifest.json; do
+            [ -f "$DIR/$f" ] && cp "$DIR/$f" "out/$f"
+          done
+          python3 - "$DIR/manifest.json" "$VERSION" > out/notes.md <<'EOF'
+          import json, sys
+          m = json.load(open(sys.argv[1])); v = sys.argv[2]; h = m.get("headline", {})
+          c, r, s = h.get("companies", {}), h.get("researchers", {}), h.get("shops", {})
+          print(f"Data release {v} of Captain Drawdown's CDR Databases (data as of {m.get('as_of')}).\n")
+          print(f"- {c.get('published', 0):,} published carbon removal companies ({c.get('active_total', c.get('database_total', 0)):,} monitored), CC BY-NC-SA 4.0")
+          print(f"- {r.get('total', 0):,} researchers with a CDR paper since 2021 (calibrated estimate {r.get('calibrated_estimate', 0):,}), {len(m.get('top_lists', []))} pathway top lists, CC BY 4.0")
+          print(f"- {s.get('count', 0)} shops with live prices, CC BY 4.0\n")
+          print(f"Files: `v1/{v}/` (zip attached). Documentation: https://captaindrawdown.com/data/ · API: https://captaindrawdown.com/api/ · Hugging Face: https://huggingface.co/carbondrawdowninitiative\n")
+          print("Cite as:")
+          for k, line in (m.get("cite_as") or {}).items():
+              print(f"- {line}")
+          EOF
+          cat out/notes.md
+      - name: Create the GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          V="${{ steps.files.outputs.version }}"
+          if gh release view "release-$V" >/dev/null 2>&1; then
+            gh release upload "release-$V" out/*.zip out/*.csv out/*.json --clobber
+          else
+            gh release create "release-$V" out/*.zip out/*.csv out/*.json --title "Data release $V" --notes-file out/notes.md
+          fi

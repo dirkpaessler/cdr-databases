@@ -1,0 +1,645 @@
+country_code,pathway,researchers
+CN,Biochar,11013
+IN,Biochar,2429
+CN,Cross-cutting CDR,2156
+US,Cross-cutting CDR,1627
+,Biochar,1571
+US,Biochar,1560
+US,DAC,1305
+CN,Enhanced Weathering,1130
+,Cross-cutting CDR,1006
+US,Ocean CDR,968
+CN,DAC,877
+CN,Ocean CDR,867
+IN,Cross-cutting CDR,796
+US,Enhanced Weathering,688
+,DAC,675
+BR,Biochar,620
+GB,Cross-cutting CDR,617
+DE,Cross-cutting CDR,483
+KR,Biochar,475
+US,BECCS,458
+,Ocean CDR,455
+CN,BECCS,433
+PK,Biochar,400
+IT,Biochar,395
+MY,Biochar,369
+,BECCS,367
+GB,Biochar,355
+AU,Biochar,335
+AU,Cross-cutting CDR,321
+DE,DAC,320
+,Enhanced Weathering,315
+GB,Enhanced Weathering,299
+ID,Biochar,286
+DE,Ocean CDR,281
+DE,Biochar,281
+TH,Biochar,276
+NG,Biochar,272
+ES,Biochar,269
+SA,Biochar,261
+CA,Biochar,260
+GB,DAC,245
+BR,Cross-cutting CDR,240
+EG,Biochar,237
+IT,Cross-cutting CDR,233
+PL,Biochar,232
+TW,Biochar,232
+IN,BECCS,232
+DE,Enhanced Weathering,227
+JP,Biochar,226
+CA,Cross-cutting CDR,223
+GB,BECCS,217
+IN,Ocean CDR,217
+FR,Biochar,212
+GB,Ocean CDR,208
+VN,Biochar,199
+IR,Biochar,184
+AU,Ocean CDR,181
+FR,Cross-cutting CDR,181
+NL,Cross-cutting CDR,174
+BR,BECCS,167
+CA,Ocean CDR,164
+JP,DAC,162
+JP,Cross-cutting CDR,160
+ES,Cross-cutting CDR,159
+IN,DAC,154
+CA,DAC,153
+TR,Biochar,153
+FR,Ocean CDR,151
+KR,DAC,150
+JP,Enhanced Weathering,150
+KR,Cross-cutting CDR,148
+AU,DAC,141
+HK,Biochar,137
+DE,BECCS,136
+ES,Ocean CDR,134
+ID,Cross-cutting CDR,128
+CH,Cross-cutting CDR,124
+CA,Enhanced Weathering,124
+JP,Ocean CDR,124
+PT,Biochar,123
+SE,BECCS,121
+CZ,Biochar,120
+IT,Ocean CDR,117
+IN,Enhanced Weathering,117
+RU,Biochar,117
+FI,Biochar,116
+MX,Biochar,114
+MA,Biochar,113
+CH,DAC,112
+ZA,Biochar,112
+ES,DAC,111
+AT,Cross-cutting CDR,110
+MY,Cross-cutting CDR,109
+FR,Enhanced Weathering,109
+BD,Biochar,107
+DK,Biochar,105
+SE,Biochar,102
+SE,Cross-cutting CDR,101
+FI,Cross-cutting CDR,101
+BE,Enhanced Weathering,100
+KR,Ocean CDR,95
+IR,Cross-cutting CDR,94
+BR,Enhanced Weathering,94
+GR,Biochar,92
+NO,Cross-cutting CDR,91
+PK,Cross-cutting CDR,91
+NO,Ocean CDR,88
+LK,Biochar,87
+RU,Cross-cutting CDR,85
+IQ,Biochar,85
+DK,Cross-cutting CDR,84
+SA,DAC,82
+NG,Cross-cutting CDR,82
+NL,DAC,81
+BE,Biochar,80
+GH,Biochar,80
+CO,Biochar,79
+IT,BECCS,78
+AE,Biochar,77
+SA,Cross-cutting CDR,76
+ES,BECCS,74
+IT,DAC,74
+SG,Biochar,73
+AU,Enhanced Weathering,71
+RS,Biochar,70
+RO,Biochar,67
+KR,Enhanced Weathering,64
+IT,Enhanced Weathering,63
+AE,Cross-cutting CDR,61
+CH,Enhanced Weathering,60
+AT,Biochar,60
+NO,Biochar,60
+CA,BECCS,59
+NL,Biochar,59
+PL,BECCS,57
+BE,Cross-cutting CDR,56
+FI,BECCS,56
+HK,Cross-cutting CDR,56
+SK,Biochar,56
+PL,Cross-cutting CDR,55
+FR,DAC,54
+DK,BECCS,54
+BD,Cross-cutting CDR,53
+TR,Cross-cutting CDR,53
+OM,Biochar,53
+KZ,Biochar,53
+ZA,Cross-cutting CDR,52
+ET,Biochar,52
+NL,BECCS,50
+FI,DAC,50
+IE,Cross-cutting CDR,49
+CH,Biochar,49
+NL,Ocean CDR,48
+ID,BECCS,48
+BE,DAC,47
+AT,BECCS,46
+MY,BECCS,46
+DK,DAC,46
+ES,Enhanced Weathering,45
+CH,Ocean CDR,45
+NZ,Biochar,45
+TH,Cross-cutting CDR,45
+TW,Ocean CDR,45
+FR,BECCS,44
+SG,Cross-cutting CDR,44
+NO,BECCS,44
+JP,BECCS,44
+GR,Cross-cutting CDR,43
+DZ,Biochar,43
+NL,Enhanced Weathering,42
+BE,Ocean CDR,42
+HU,Biochar,42
+DK,Enhanced Weathering,41
+MY,DAC,41
+RO,Cross-cutting CDR,41
+TN,Biochar,41
+AU,BECCS,40
+PT,Cross-cutting CDR,40
+MX,Cross-cutting CDR,40
+IR,DAC,39
+PT,Ocean CDR,38
+CM,Biochar,38
+AR,Biochar,38
+NZ,Cross-cutting CDR,37
+NO,DAC,37
+BR,Ocean CDR,37
+TW,Enhanced Weathering,37
+PH,Biochar,37
+PK,DAC,37
+SE,Ocean CDR,36
+NG,DAC,36
+KE,Biochar,35
+TW,Cross-cutting CDR,34
+SE,DAC,34
+NZ,Ocean CDR,32
+IL,Ocean CDR,32
+HK,Ocean CDR,31
+SE,Enhanced Weathering,31
+BR,DAC,31
+TW,DAC,31
+DK,Ocean CDR,30
+PL,Enhanced Weathering,30
+QA,Biochar,30
+KR,BECCS,29
+ID,Ocean CDR,29
+TW,BECCS,29
+UZ,Biochar,29
+AT,DAC,28
+SG,DAC,28
+IE,Biochar,28
+RU,Ocean CDR,28
+ET,Cross-cutting CDR,27
+NG,BECCS,27
+EC,Biochar,27
+MY,Ocean CDR,26
+EG,Cross-cutting CDR,26
+CZ,Cross-cutting CDR,25
+CI,Biochar,25
+PK,BECCS,24
+HU,Cross-cutting CDR,24
+PT,BECCS,24
+PE,Cross-cutting CDR,24
+AT,Enhanced Weathering,23
+FI,Ocean CDR,23
+HK,DAC,23
+AR,Cross-cutting CDR,23
+NO,Enhanced Weathering,23
+IE,DAC,23
+LV,Biochar,23
+UA,BECCS,23
+UA,Biochar,23
+CL,Biochar,23
+SA,BECCS,22
+JO,Biochar,22
+CL,Cross-cutting CDR,21
+IQ,Cross-cutting CDR,21
+RU,BECCS,21
+TH,DAC,21
+CH,BECCS,21
+SK,Cross-cutting CDR,21
+SA,Enhanced Weathering,21
+AE,DAC,21
+ZA,DAC,21
+UA,Cross-cutting CDR,21
+GR,BECCS,21
+PE,Biochar,21
+NP,Biochar,21
+CO,Cross-cutting CDR,20
+UG,Cross-cutting CDR,20
+ZW,Biochar,20
+PL,DAC,19
+PK,Ocean CDR,19
+RU,Enhanced Weathering,19
+MA,Cross-cutting CDR,19
+BD,Ocean CDR,19
+HR,Biochar,19
+ID,DAC,18
+ZA,Enhanced Weathering,18
+PT,DAC,18
+MY,Enhanced Weathering,18
+TH,BECCS,18
+LT,Biochar,18
+PH,Cross-cutting CDR,17
+QA,DAC,17
+LK,Ocean CDR,17
+GH,Enhanced Weathering,17
+GR,Ocean CDR,16
+SG,Enhanced Weathering,16
+CO,BECCS,16
+HK,Enhanced Weathering,16
+OM,Enhanced Weathering,16
+OM,Cross-cutting CDR,16
+SG,BECCS,16
+CZ,DAC,16
+UG,Biochar,16
+MO,Biochar,16
+CY,Cross-cutting CDR,15
+ZA,Ocean CDR,15
+ZA,BECCS,15
+MX,Enhanced Weathering,15
+VN,BECCS,15
+TH,Ocean CDR,14
+EG,DAC,14
+EE,Biochar,14
+IE,Ocean CDR,14
+BD,Enhanced Weathering,14
+TZ,Biochar,13
+MX,Ocean CDR,13
+IL,Enhanced Weathering,12
+KE,Cross-cutting CDR,12
+QA,Cross-cutting CDR,12
+NG,Enhanced Weathering,12
+BG,DAC,12
+EG,Enhanced Weathering,12
+PL,Ocean CDR,11
+CO,Ocean CDR,11
+IE,Enhanced Weathering,11
+NZ,Enhanced Weathering,11
+EG,Ocean CDR,11
+IL,Cross-cutting CDR,11
+MA,Ocean CDR,11
+IR,Enhanced Weathering,11
+BD,DAC,11
+HR,BECCS,11
+CZ,BECCS,11
+MN,Cross-cutting CDR,11
+IL,Biochar,11
+BG,Biochar,11
+NP,Cross-cutting CDR,11
+PH,Ocean CDR,10
+MX,DAC,10
+RO,DAC,10
+SI,Biochar,10
+MA,DAC,10
+EC,Cross-cutting CDR,10
+MX,BECCS,10
+ID,Enhanced Weathering,10
+HU,BECCS,9
+CO,Enhanced Weathering,9
+CM,Cross-cutting CDR,9
+LV,BECCS,9
+MO,Cross-cutting CDR,9
+RU,DAC,9
+TR,DAC,9
+HK,BECCS,9
+IR,BECCS,9
+TR,BECCS,9
+BF,Biochar,9
+DZ,Cross-cutting CDR,9
+NP,Enhanced Weathering,9
+ZM,Cross-cutting CDR,9
+BG,Cross-cutting CDR,8
+IE,BECCS,8
+AE,BECCS,8
+ZM,Biochar,8
+TR,Enhanced Weathering,8
+BD,BECCS,8
+LK,Cross-cutting CDR,8
+VN,Cross-cutting CDR,8
+SG,Ocean CDR,8
+GR,DAC,8
+EE,BECCS,8
+BW,Biochar,8
+VN,Enhanced Weathering,8
+TZ,Cross-cutting CDR,7
+SA,Ocean CDR,7
+EE,Enhanced Weathering,7
+AE,Ocean CDR,7
+FI,Enhanced Weathering,7
+PT,Enhanced Weathering,7
+NZ,DAC,7
+BE,BECCS,7
+AZ,Biochar,7
+MN,Biochar,7
+LU,Biochar,7
+KE,Enhanced Weathering,7
+PK,Enhanced Weathering,6
+MC,Ocean CDR,6
+MA,BECCS,6
+EG,BECCS,6
+IS,Cross-cutting CDR,6
+BJ,Biochar,6
+TH,Enhanced Weathering,6
+TR,Ocean CDR,6
+CL,Ocean CDR,6
+CZ,Enhanced Weathering,6
+IR,Ocean CDR,6
+KE,DAC,6
+TN,Cross-cutting CDR,6
+PH,BECCS,6
+UZ,Cross-cutting CDR,6
+KE,Ocean CDR,6
+EE,Ocean CDR,6
+BG,Enhanced Weathering,6
+GH,BECCS,6
+CY,Biochar,6
+FJ,Biochar,6
+NI,Biochar,6
+HU,Enhanced Weathering,6
+ZW,Cross-cutting CDR,6
+BZ,Biochar,6
+NZ,BECCS,5
+NG,Ocean CDR,5
+KZ,Cross-cutting CDR,5
+KW,Biochar,5
+RS,Cross-cutting CDR,5
+LB,Biochar,5
+CU,BECCS,5
+BM,Ocean CDR,5
+PS,Biochar,5
+PH,Enhanced Weathering,5
+KE,BECCS,5
+LU,Cross-cutting CDR,5
+SI,Enhanced Weathering,5
+BH,Enhanced Weathering,5
+GP,Biochar,5
+YE,Biochar,5
+RW,Biochar,5
+SN,Biochar,5
+IQ,DAC,5
+CY,Ocean CDR,4
+IS,Enhanced Weathering,4
+IL,DAC,4
+BG,Ocean CDR,4
+IS,Ocean CDR,4
+LT,Cross-cutting CDR,4
+VN,Ocean CDR,4
+VN,DAC,4
+EC,BECCS,4
+RO,BECCS,4
+GP,Ocean CDR,4
+BA,Biochar,4
+BY,Biochar,4
+AF,Biochar,4
+HU,Ocean CDR,4
+SK,BECCS,4
+MG,Biochar,4
+BW,Enhanced Weathering,4
+LK,Enhanced Weathering,4
+HR,Enhanced Weathering,4
+QA,Ocean CDR,4
+VE,Cross-cutting CDR,4
+JO,DAC,4
+PE,DAC,4
+AR,BECCS,3
+BN,Biochar,3
+SI,Cross-cutting CDR,3
+PH,DAC,3
+PR,Cross-cutting CDR,3
+GT,Cross-cutting CDR,3
+HR,Ocean CDR,3
+SI,DAC,3
+OM,DAC,3
+KW,Cross-cutting CDR,3
+SK,DAC,3
+EC,Ocean CDR,3
+FJ,Ocean CDR,3
+SD,Cross-cutting CDR,3
+ZW,BECCS,3
+AR,Ocean CDR,3
+IS,DAC,3
+MO,DAC,3
+CR,Cross-cutting CDR,3
+EC,Enhanced Weathering,3
+ME,Cross-cutting CDR,3
+LY,Biochar,3
+MD,Biochar,3
+TN,Ocean CDR,3
+MW,Biochar,3
+SY,Biochar,3
+RS,Enhanced Weathering,3
+ET,BECCS,3
+BZ,Ocean CDR,3
+CZ,Ocean CDR,3
+TZ,Ocean CDR,3
+MG,Ocean CDR,3
+BH,DAC,3
+TJ,Cross-cutting CDR,3
+AE,Enhanced Weathering,3
+AT,Ocean CDR,2
+DO,Ocean CDR,2
+CL,Enhanced Weathering,2
+UY,DAC,2
+QA,BECCS,2
+ME,BECCS,2
+FJ,Cross-cutting CDR,2
+IQ,Ocean CDR,2
+LV,Cross-cutting CDR,2
+CU,Ocean CDR,2
+CY,BECCS,2
+IQ,BECCS,2
+MO,Ocean CDR,2
+XK,Cross-cutting CDR,2
+KW,DAC,2
+AZ,Cross-cutting CDR,2
+LK,BECCS,2
+JM,Ocean CDR,2
+MU,Biochar,2
+JO,Cross-cutting CDR,2
+SI,Ocean CDR,2
+BF,Cross-cutting CDR,2
+NP,DAC,2
+HU,DAC,2
+NP,Ocean CDR,2
+MO,BECCS,2
+NA,DAC,2
+CO,DAC,2
+LB,DAC,2
+ZM,DAC,2
+BA,BECCS,2
+CL,BECCS,2
+LB,BECCS,2
+SI,BECCS,2
+IL,BECCS,2
+GH,Cross-cutting CDR,2
+PA,Biochar,2
+LA,Biochar,2
+NA,Biochar,2
+PY,Biochar,2
+KZ,Enhanced Weathering,2
+LT,Enhanced Weathering,2
+AM,Cross-cutting CDR,2
+CD,Cross-cutting CDR,2
+RW,Cross-cutting CDR,2
+RE,Ocean CDR,2
+GH,Ocean CDR,2
+FK,Ocean CDR,2
+FM,Ocean CDR,2
+GE,Cross-cutting CDR,2
+MV,Ocean CDR,2
+BY,Cross-cutting CDR,2
+RS,BECCS,2
+IS,BECCS,2
+PG,Cross-cutting CDR,2
+TT,DAC,2
+SS,Biochar,2
+KG,Biochar,2
+GF,Biochar,2
+CU,Cross-cutting CDR,2
+UY,Biochar,2
+CR,Ocean CDR,1
+LR,Cross-cutting CDR,1
+KZ,BECCS,1
+OM,BECCS,1
+SJ,Ocean CDR,1
+MT,Ocean CDR,1
+GT,DAC,1
+LU,Ocean CDR,1
+VG,Ocean CDR,1
+KW,BECCS,1
+VA,DAC,1
+YE,Ocean CDR,1
+EE,Cross-cutting CDR,1
+IQ,Enhanced Weathering,1
+GE,Enhanced Weathering,1
+PR,BECCS,1
+YE,Cross-cutting CDR,1
+BT,Cross-cutting CDR,1
+LT,Ocean CDR,1
+PR,Ocean CDR,1
+MM,Enhanced Weathering,1
+BY,DAC,1
+KG,DAC,1
+CY,DAC,1
+PA,Ocean CDR,1
+JO,Ocean CDR,1
+ET,DAC,1
+SD,Ocean CDR,1
+BN,DAC,1
+BO,BECCS,1
+HR,DAC,1
+EC,DAC,1
+DZ,DAC,1
+UZ,BECCS,1
+MD,BECCS,1
+HR,Cross-cutting CDR,1
+MG,Cross-cutting CDR,1
+MK,Cross-cutting CDR,1
+DZ,BECCS,1
+LR,Biochar,1
+BS,Biochar,1
+BH,Biochar,1
+CD,Biochar,1
+PG,Biochar,1
+SD,Biochar,1
+TT,Biochar,1
+TG,Biochar,1
+MM,Biochar,1
+SV,Biochar,1
+BN,Cross-cutting CDR,1
+GN,Biochar,1
+AM,Biochar,1
+VE,Biochar,1
+NE,Biochar,1
+GR,Enhanced Weathering,1
+UZ,Enhanced Weathering,1
+MA,Enhanced Weathering,1
+BM,Enhanced Weathering,1
+QA,Enhanced Weathering,1
+PA,Enhanced Weathering,1
+GA,Enhanced Weathering,1
+SK,Enhanced Weathering,1
+UY,Cross-cutting CDR,1
+SL,Cross-cutting CDR,1
+ZM,BECCS,1
+NC,Cross-cutting CDR,1
+KH,Cross-cutting CDR,1
+MU,Cross-cutting CDR,1
+KH,Ocean CDR,1
+BB,Cross-cutting CDR,1
+PA,Cross-cutting CDR,1
+RW,Enhanced Weathering,1
+DZ,Ocean CDR,1
+RW,Ocean CDR,1
+BY,Ocean CDR,1
+ET,Ocean CDR,1
+IS,Biochar,1
+SY,Cross-cutting CDR,1
+SD,BECCS,1
+CF,Cross-cutting CDR,1
+RW,BECCS,1
+LB,Cross-cutting CDR,1
+CI,Enhanced Weathering,1
+SD,Enhanced Weathering,1
+BA,Cross-cutting CDR,1
+MW,Cross-cutting CDR,1
+LU,BECCS,1
+LA,Cross-cutting CDR,1
+MZ,Cross-cutting CDR,1
+KW,Enhanced Weathering,1
+ZW,Enhanced Weathering,1
+AF,Cross-cutting CDR,1
+BO,Cross-cutting CDR,1
+GN,Enhanced Weathering,1
+ME,Ocean CDR,1
+LI,Cross-cutting CDR,1
+SV,Cross-cutting CDR,1
+CL,DAC,1
+RW,DAC,1
+SV,DAC,1
+PE,BECCS,1
+GA,Biochar,1
+MT,Biochar,1
+ME,Biochar,1
+MZ,Biochar,1
+CU,Biochar,1
+SZ,Biochar,1
+BH,Ocean CDR,1
+LV,Enhanced Weathering,1
+AO,DAC,1
+EE,DAC,1
+CD,Enhanced Weathering,1
+SL,Enhanced Weathering,1
+RO,Enhanced Weathering,1
+SO,Cross-cutting CDR,1
+PW,Ocean CDR,1
+GH,DAC,1
+TN,DAC,1
+GY,DAC,1
+LY,DAC,1
+MU,DAC,1
+GY,BECCS,1
+ET,Enhanced Weathering,1
+JO,Enhanced Weathering,1

@@ -1,0 +1,172 @@
+country_code,region,researchers,share_pct,calibrated_estimate
+CN,China,16476,29.49,14621
+US,United States,6606,11.82,6288
+,Unknown,4389,7.86,4389
+IN,India,3945,7.06,3508
+GB,Europe (non-EU),1941,3.47,1892
+DE,EU27,1728,3.09,1679
+BR,Rest of world,1189,2.13,1130
+AU,Australia & New Zealand,1089,1.95,1156
+CA,Canada,983,1.76,934
+KR,Rest of world,961,1.72,909
+IT,EU27,960,1.72,977
+JP,Japan,866,1.55,838
+ES,EU27,792,1.42,815
+FR,EU27,751,1.34,685
+MY,Rest of world,609,1.09,598
+PK,Rest of world,577,1.03,495
+ID,Rest of world,519,0.93,405
+SA,Rest of world,469,0.84,485
+NL,EU27,454,0.81,484
+NG,Rest of world,434,0.78,345
+SE,EU27,425,0.76,432
+CH,Europe (non-EU),411,0.74,419
+TW,Rest of world,408,0.73,350
+PL,EU27,404,0.72,388
+TH,Rest of world,380,0.68,336
+DK,EU27,360,0.64,389
+FI,EU27,353,0.63,357
+NO,Europe (non-EU),343,0.61,341
+IR,Rest of world,343,0.61,315
+BE,EU27,332,0.59,315
+EG,Rest of world,306,0.55,271
+RU,Rest of world,279,0.5,220
+HK,Rest of world,272,0.49,321
+AT,EU27,269,0.48,250
+PT,EU27,250,0.45,266
+TR,Europe (non-EU),238,0.43,227
+VN,Rest of world,238,0.43,179
+ZA,Rest of world,233,0.42,207
+BD,Rest of world,212,0.38,163
+MX,Rest of world,202,0.36,190
+SG,Rest of world,185,0.33,195
+CZ,EU27,181,0.32,181
+GR,EU27,181,0.32,175
+AE,Rest of world,177,0.32,164
+MA,Rest of world,160,0.29,145
+NZ,Australia & New Zealand,137,0.25,128
+CO,Rest of world,137,0.25,128
+IE,EU27,133,0.24,133
+RO,EU27,123,0.22,102
+LK,Rest of world,118,0.21,97
+IQ,Rest of world,116,0.21,80
+GH,Rest of world,108,0.19,81
+OM,Rest of world,89,0.16,83
+HU,EU27,87,0.16,78
+ET,Rest of world,85,0.15,79
+SK,EU27,85,0.15,41
+RS,Europe (non-EU),80,0.14,75
+PH,Rest of world,78,0.14,32
+IL,Rest of world,72,0.13,69
+KE,Rest of world,71,0.13,59
+AR,Rest of world,67,0.12,60
+UA,Europe (non-EU),67,0.12,49
+QA,Rest of world,66,0.12,65
+KZ,Rest of world,61,0.11,52
+CL,Rest of world,55,0.1,53
+DZ,Rest of world,55,0.1,48
+TN,Rest of world,51,0.09,41
+PE,Rest of world,50,0.09,32
+EC,Rest of world,48,0.09,42
+CM,Rest of world,47,0.08,39
+NP,Rest of world,45,0.08,24
+BG,EU27,41,0.07,34
+HR,EU27,39,0.07,38
+EE,EU27,37,0.07,34
+UZ,Rest of world,37,0.07,30
+UG,Rest of world,36,0.06,31
+LV,EU27,35,0.06,29
+MO,Rest of world,32,0.06,16
+JO,Rest of world,30,0.05,24
+ZW,Rest of world,30,0.05,26
+CY,EU27,28,0.05,31
+CI,Rest of world,26,0.05,22
+SI,EU27,25,0.04,23
+LT,EU27,25,0.04,23
+TZ,Rest of world,23,0.04,21
+IS,Europe (non-EU),20,0.04,18
+ZM,Rest of world,20,0.04,16
+MN,Rest of world,18,0.03,14
+LU,EU27,14,0.03,15
+KW,Rest of world,12,0.02,10
+BW,Rest of world,12,0.02,10
+FJ,Rest of world,11,0.02,11
+BF,Rest of world,11,0.02,9
+RW,Rest of world,11,0.02,9
+CU,Rest of world,10,0.02,8
+LB,Rest of world,10,0.02,9
+BH,Rest of world,10,0.02,9
+AZ,Rest of world,9,0.02,7
+GP,Rest of world,9,0.02,9
+BZ,Rest of world,9,0.02,9
+BY,Rest of world,8,0.01,6
+MG,Rest of world,8,0.01,6
+ME,Rest of world,7,0.01,6
+YE,Rest of world,7,0.01,5
+SD,Rest of world,7,0.01,5
+BA,Rest of world,7,0.01,6
+MC,Rest of world,6,0.01,5
+BJ,Rest of world,6,0.01,6
+BM,Rest of world,6,0.01,6
+NI,Rest of world,6,0.01,5
+BN,Rest of world,5,0.01,6
+PR,Rest of world,5,0.01,4
+UY,Rest of world,5,0.01,4
+PS,Rest of world,5,0.01,4
+PA,Rest of world,5,0.01,4
+AF,Rest of world,5,0.01,4
+SN,Rest of world,5,0.01,4
+VE,Rest of world,5,0.01,5
+CR,Rest of world,4,0.01,4
+GT,Rest of world,4,0.01,4
+MU,Rest of world,4,0.01,4
+NA,Rest of world,4,0.01,3
+MD,Rest of world,4,0.01,4
+LY,Rest of world,4,0.01,5
+CD,Rest of world,4,0.01,3
+MW,Rest of world,4,0.01,3
+SY,Rest of world,4,0.01,3
+GE,Rest of world,3,0.01,2
+KG,Rest of world,3,0.01,3
+PG,Rest of world,3,0.01,2
+LA,Rest of world,3,0.01,3
+TT,Rest of world,3,0.01,3
+SV,Rest of world,3,0.01,3
+AM,Rest of world,3,0.01,3
+TJ,Rest of world,3,0.01,3
+DO,Rest of world,2,0.0,2
+LR,Rest of world,2,0.0,2
+MT,EU27,2,0.0,2
+XK,Rest of world,2,0.0,2
+JM,Rest of world,2,0.0,2
+MM,Rest of world,2,0.0,2
+BO,Rest of world,2,0.0,2
+GN,Rest of world,2,0.0,2
+PY,Rest of world,2,0.0,2
+GA,Rest of world,2,0.0,2
+SL,Rest of world,2,0.0,2
+KH,Rest of world,2,0.0,2
+RE,Rest of world,2,0.0,2
+FK,Rest of world,2,0.0,2
+FM,Rest of world,2,0.0,2
+MV,Rest of world,2,0.0,2
+MZ,Rest of world,2,0.0,2
+SS,Rest of world,2,0.0,2
+GF,Rest of world,2,0.0,2
+GY,Rest of world,2,0.0,2
+SJ,Rest of world,1,0.0,1
+VG,Rest of world,1,0.0,1
+VA,Rest of world,1,0.0,1
+BT,Rest of world,1,0.0,1
+MK,Rest of world,1,0.0,1
+BS,Rest of world,1,0.0,1
+TG,Rest of world,1,0.0,1
+NE,Rest of world,1,0.0,1
+NC,Rest of world,1,0.0,1
+BB,Rest of world,1,0.0,1
+CF,Rest of world,1,0.0,1
+LI,Rest of world,1,0.0,1
+SZ,Rest of world,1,0.0,1
+AO,Rest of world,1,0.0,1
+SO,Rest of world,1,0.0,1
+PW,Rest of world,1,0.0,1
