@@ -22,11 +22,18 @@ One folder per release under `v1/`, the newest also under `v1/latest/`; `manifes
 
 ## Get the data
 
+Use the data where it lives, not a copy: `v1/latest/`, the JSON API and the MCP server always serve the newest release; pin `v1/<version>/` only for a result that must not change.
+
+- Hand your assistant the map: `v1/latest/manifest.json` (also at https://captaindrawdown.com/data/v1/latest/manifest.json) lists every file with description, row count, size, licence and SHA-256. Paste that address into Claude, ChatGPT or Gemini, ask your question, and the assistant picks the file and quotes the version.
 - Browse a release folder (`v1/<version>/`) and open any CSV or JSON here on GitHub; `v1/latest/` is always the newest release.
 - One zip per release on the [Releases](https://github.com/dirkpaessler/cdr-databases/releases) page.
 - Straight into pandas: `pd.read_csv("https://raw.githubusercontent.com/dirkpaessler/cdr-databases/main/v1/latest/companies.csv")`
 - Everything with history: `git clone https://github.com/dirkpaessler/cdr-databases.git`
 - JSON API without a key: https://captaindrawdown.com/api/ · MCP server for Claude, ChatGPT and Cursor: `pip install captain-drawdown-mcp` · Hugging Face: https://huggingface.co/carbondrawdowninitiative · Zenodo: archived copies with DOIs (table above).
+
+## Examples
+
+`examples/` holds the scripts behind the charts of the articles on captaindrawdown.com, each one reading `v1/<release>/` from a clone of this repository with nothing but Python and matplotlib: `eu27_company_maps.py`. See [examples/README.md](examples/README.md).
 
 ## Corrections
 
