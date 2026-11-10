@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """EU27 carbon removal companies: one map per pathway, and the 27 member states as bars.
 
 Reads two files of a data release in this repository (companies.csv and
@@ -20,6 +21,9 @@ Outputs (into --out, default the current directory):
 Article: https://captaindrawdown.com/posts/eu27-carbon-removal-companies-one-map-per-pathway/
 The published charts are set in Inter and carry the Carbon Drawdown Initiative
 logo; this script falls back to a system font and draws no logo.
+
+Licence: MIT for this script (examples/LICENSE). The data keeps its own
+licences, see the main README.
 """
 from __future__ import annotations
 

@@ -33,7 +33,7 @@ Use the data where it lives, not a copy: `v1/latest/`, the JSON API and the MCP 
 
 ## Examples
 
-`examples/` holds the scripts behind the charts of the articles on captaindrawdown.com, each one reading `v1/<release>/` from a clone of this repository with nothing but Python and matplotlib: `eu27_company_maps.py`. See [examples/README.md](examples/README.md).
+`examples/` holds the scripts behind the charts of the articles on captaindrawdown.com, each one reading `v1/<release>/` from a clone of this repository with nothing but Python and matplotlib: `eu27_company_maps.py`. The scripts are MIT-licensed; the data keeps the licences in the table above. See [examples/README.md](examples/README.md).
 
 ## Corrections
 

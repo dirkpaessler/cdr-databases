@@ -18,4 +18,4 @@ The published charts are set in Inter and carry the Carbon Drawdown Initiative l
 
 `world-110m.json` holds the country outlines: Natural Earth 1:110m (public domain) as TopoJSON from the [world-atlas](https://github.com/topojson/world-atlas) project (ISC licence).
 
-The data keeps its licences (table in the main README): a chart built from `companies.csv` is CC BY-NC-SA 4.0, one built from the census files CC BY 4.0. Cite the release you used.
+The scripts are MIT-licensed ([LICENSE](LICENSE)): copy, change and reuse them. The data keeps its licences (table in the main README): a chart built from `companies.csv` is CC BY-NC-SA 4.0, one built from the census files CC BY 4.0. Cite the release you used.
