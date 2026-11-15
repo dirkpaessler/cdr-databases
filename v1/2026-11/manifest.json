@@ -1,0 +1,906 @@
+{
+  "dataset": "Captain Drawdown CDR Data",
+  "version": "2026-11",
+  "as_of": "2026-11-15",
+  "generated_at": "2026-11-15T05:16:10+00:00",
+  "publisher": "Captain Drawdown (Carbon Drawdown Initiative)",
+  "contact": "info@carbon-drawdown.de",
+  "pages": {
+    "companies": "https://captaindrawdown.com/data/companies/",
+    "researchers": "https://captaindrawdown.com/data/researchers/",
+    "shops": "https://captaindrawdown.com/data/shops/"
+  },
+  "licenses": {
+    "companies": {
+      "name": "CC BY-NC-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    "researchers": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "shops": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "cite_as": {
+    "companies": "Captain Drawdown and Dirk Paessler (2026). CDR Company Directory, version 2026-11. Carbon Drawdown Initiative. https://captaindrawdown.com/data/companies/ (CC licence, see page).",
+    "researchers": "Captain Drawdown and Dirk Paessler (2026). CDR Researcher Census, version 2026-11. Carbon Drawdown Initiative. https://captaindrawdown.com/data/researchers/ (CC licence, see page).",
+    "shops": "Captain Drawdown and Dirk Paessler (2026). CDR Shops, version 2026-11. Carbon Drawdown Initiative. https://captaindrawdown.com/data/shops/ (CC licence, see page)."
+  },
+  "headline": {
+    "companies": {
+      "published": 911,
+      "active_total": 1470,
+      "database_total": 1814,
+      "countries": 66,
+      "europe": 405,
+      "by_region": {
+        "United States": 273,
+        "EU27": 248,
+        "Europe (non-EU)": 157,
+        "Rest of world": 107,
+        "Canada": 56,
+        "India": 27,
+        "Australia & New Zealand": 23,
+        "China": 8,
+        "Japan": 8,
+        "Unknown": 4
+      },
+      "by_pathway": {
+        "Biochar": 378,
+        "Enabling Tech": 179,
+        "DAC": 122,
+        "BECCS": 84,
+        "Mineralization": 42,
+        "Ocean CDR": 42,
+        "Enhanced Weathering": 33,
+        "Biomass Burial": 31
+      }
+    },
+    "researchers": {
+      "total": 57175,
+      "calibrated_estimate": 53199,
+      "with_country": 51798,
+      "countries": 161,
+      "institutions": 10017,
+      "papers_total": 16488,
+      "europe": 11191
+    },
+    "shops": {
+      "count": 14
+    }
+  },
+  "top_lists": [
+    {
+      "pathway": "DAC",
+      "slug": "dac",
+      "authors_with_papers": 6273,
+      "global_csv": "/data/v1/2026-11/top100_dac.csv",
+      "europe_csv": "/data/v1/2026-11/top50_europe_dac.csv",
+      "cited_global_csv": "/data/v1/2026-11/top100_cited_dac.csv",
+      "cited_europe_csv": "/data/v1/2026-11/top50_europe_cited_dac.csv",
+      "papers_csv": "/data/v1/2026-11/top100_dac_papers.csv",
+      "half_life_years": 3.0,
+      "leader": "USDOE Office of Fossil Energy (FE)",
+      "leader_cited": "Noah McQueen",
+      "europe_share_in_top100": 41
+    },
+    {
+      "pathway": "BECCS",
+      "slug": "beccs",
+      "authors_with_papers": 4203,
+      "global_csv": "/data/v1/2026-11/top100_beccs.csv",
+      "europe_csv": "/data/v1/2026-11/top50_europe_beccs.csv",
+      "cited_global_csv": "/data/v1/2026-11/top100_cited_beccs.csv",
+      "cited_europe_csv": "/data/v1/2026-11/top50_europe_cited_beccs.csv",
+      "papers_csv": "/data/v1/2026-11/top100_beccs_papers.csv",
+      "half_life_years": 3.0,
+      "leader": "Daniela Thrän",
+      "leader_cited": "Ahmed I. Osman",
+      "europe_share_in_top100": 66
+    },
+    {
+      "pathway": "Enhanced Weathering",
+      "slug": "enhanced-weathering",
+      "authors_with_papers": 5158,
+      "global_csv": "/data/v1/2026-11/top100_enhanced-weathering.csv",
+      "europe_csv": "/data/v1/2026-11/top50_europe_enhanced-weathering.csv",
+      "cited_global_csv": "/data/v1/2026-11/top100_cited_enhanced-weathering.csv",
+      "cited_europe_csv": "/data/v1/2026-11/top50_europe_cited_enhanced-weathering.csv",
+      "papers_csv": "/data/v1/2026-11/top100_enhanced-weathering_papers.csv",
+      "half_life_years": 3.0,
+      "leader": "Noah J. Planavsky",
+      "leader_cited": "David J. Beerling",
+      "europe_share_in_top100": 62
+    },
+    {
+      "pathway": "Ocean CDR",
+      "slug": "ocean-cdr",
+      "authors_with_papers": 5677,
+      "global_csv": "/data/v1/2026-11/top100_ocean-cdr.csv",
+      "europe_csv": "/data/v1/2026-11/top50_europe_ocean-cdr.csv",
+      "cited_global_csv": "/data/v1/2026-11/top100_cited_ocean-cdr.csv",
+      "cited_europe_csv": "/data/v1/2026-11/top50_europe_cited_ocean-cdr.csv",
+      "papers_csv": "/data/v1/2026-11/top100_ocean-cdr_papers.csv",
+      "half_life_years": 3.0,
+      "leader": "Ulf Riebesell",
+      "leader_cited": "Lennart T. Bach",
+      "europe_share_in_top100": 61
+    },
+    {
+      "pathway": "Biochar",
+      "slug": "biochar",
+      "authors_with_papers": 28634,
+      "global_csv": "/data/v1/2026-11/top100_biochar.csv",
+      "europe_csv": "/data/v1/2026-11/top50_europe_biochar.csv",
+      "cited_global_csv": "/data/v1/2026-11/top100_cited_biochar.csv",
+      "cited_europe_csv": "/data/v1/2026-11/top50_europe_cited_biochar.csv",
+      "papers_csv": "/data/v1/2026-11/top100_biochar_papers.csv",
+      "half_life_years": 3.0,
+      "leader": "Daniel C.W. Tsang",
+      "leader_cited": "Daniel C.W. Tsang",
+      "europe_share_in_top100": 26
+    },
+    {
+      "pathway": "Cross-cutting CDR",
+      "slug": "cross-cutting-cdr",
+      "authors_with_papers": 12850,
+      "aliases": [
+        "/data/researchers/general-cdr/"
+      ],
+      "global_csv": "/data/v1/2026-11/top100_cross-cutting-cdr.csv",
+      "europe_csv": "/data/v1/2026-11/top50_europe_cross-cutting-cdr.csv",
+      "cited_global_csv": "/data/v1/2026-11/top100_cited_cross-cutting-cdr.csv",
+      "cited_europe_csv": "/data/v1/2026-11/top50_europe_cited_cross-cutting-cdr.csv",
+      "papers_csv": "/data/v1/2026-11/top100_cross-cutting-cdr_papers.csv",
+      "half_life_years": 3.0,
+      "leader": "Matthew Gidden",
+      "leader_cited": "Myles Allen",
+      "europe_share_in_top100": 67
+    }
+  ],
+  "files": [
+    {
+      "path": "/data/v1/2026-11/companies.csv",
+      "dataset": "companies",
+      "rows": 911,
+      "sha256": "31176d5ffef8dbf40e7d02fb346dd8bf2073ef82d7b34217861d055e532df6d9",
+      "bytes": 695299,
+      "license": "CC BY-NC-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "description": "Published carbon removal companies (suppliers, divisions, ecosystem, side businesses) with pathway, country, liveliness tier, EU SME size class, registries and evidence dates."
+    },
+    {
+      "path": "/data/v1/2026-11/companies.json",
+      "dataset": "companies",
+      "rows": 911,
+      "sha256": "4ad94c302fdfe23a5c74c3f3e8380b042125d9509bba5528dc41ef0460aa7223",
+      "bytes": 1045363,
+      "license": "CC BY-NC-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "description": "Published carbon removal companies (suppliers, divisions, ecosystem, side businesses) with pathway, country, liveliness tier, EU SME size class, registries and evidence dates."
+    },
+    {
+      "path": "/data/v1/2026-11/researchers_by_country.csv",
+      "dataset": "researchers",
+      "rows": 162,
+      "sha256": "99afa02a3f33db5e56ec4cd0a685ba86d2d8eca226add565eb042d12168a1e09",
+      "bytes": 4453,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "CDR researchers per country (listed count, share, calibrated estimate)."
+    },
+    {
+      "path": "/data/v1/2026-11/researchers_by_country.json",
+      "dataset": "researchers",
+      "rows": 162,
+      "sha256": "e0bb170c45dec4a1b0b804a92e81bdf4d63180fdc409d34089308106866c3ba1",
+      "bytes": 16867,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "CDR researchers per country (listed count, share, calibrated estimate)."
+    },
+    {
+      "path": "/data/v1/2026-11/researchers_by_pathway.csv",
+      "dataset": "researchers",
+      "rows": 6,
+      "sha256": "1a46ed36b495fe45f68769e3a431844446d07967d9bef005fcad2786d6d00efa",
+      "bytes": 167,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "CDR researchers per primary pathway."
+    },
+    {
+      "path": "/data/v1/2026-11/researchers_by_pathway.json",
+      "dataset": "researchers",
+      "rows": 6,
+      "sha256": "ee1f1fc04f497f7e84862119b95ef8a679fad22b616e44e05414132d691bc176",
+      "bytes": 371,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "CDR researchers per primary pathway."
+    },
+    {
+      "path": "/data/v1/2026-11/researchers_by_country_pathway.csv",
+      "dataset": "researchers",
+      "rows": 605,
+      "sha256": "7294fa77d25b0d7aa3a90d5776b78dddf289090195e790a8d1b97b674299688c",
+      "bytes": 10803,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "CDR researchers per country and primary pathway."
+    },
+    {
+      "path": "/data/v1/2026-11/researchers_by_country_pathway.json",
+      "dataset": "researchers",
+      "rows": 605,
+      "sha256": "0396ce406d95e1a4b973761340448c449336a633f6165a1d48b0cfd53c9553e6",
+      "bytes": 37402,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "CDR researchers per country and primary pathway."
+    },
+    {
+      "path": "/data/v1/2026-11/researchers_by_sector.csv",
+      "dataset": "researchers",
+      "rows": 8,
+      "sha256": "f7bb278d3bf9ced9bd06652d0420147698571a68628462999b665709da5cd0b0",
+      "bytes": 144,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "CDR researchers per sector of their institution."
+    },
+    {
+      "path": "/data/v1/2026-11/researchers_by_sector.json",
+      "dataset": "researchers",
+      "rows": 8,
+      "sha256": "2925da937569ce860f2c7f44b72d69b76d7ea3ad04a428f0ae24e122ea978ead",
+      "bytes": 333,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "CDR researchers per sector of their institution."
+    },
+    {
+      "path": "/data/v1/2026-11/cdr_papers_by_year.csv",
+      "dataset": "researchers",
+      "rows": 6,
+      "sha256": "12046988d25f3591343b98e6fd1b02cf3550961943fc43660657753d6d0dda4c",
+      "bytes": 79,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "CDR-relevant papers per publication year, 2021 onwards."
+    },
+    {
+      "path": "/data/v1/2026-11/cdr_papers_by_year.json",
+      "dataset": "researchers",
+      "rows": 6,
+      "sha256": "12503e7a9d36d11265b3481c7698058fb67e18f6bbd469017e4fdaa309ffd301",
+      "bytes": 169,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "CDR-relevant papers per publication year, 2021 onwards."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_dac.csv",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "d9da6612ec12f996af83ccbec3064b34476a6423e2ab6df24cc22255cebc47d5",
+      "bytes": 25389,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most active DAC researchers worldwide: CDR papers since 2021 weighted by age (half-life 3 years); citation rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_dac.json",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "a877e3f998ca86898582d585d7a9a5bf30801dcb38e882701023864a734def63",
+      "bytes": 55875,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most active DAC researchers worldwide: CDR papers since 2021 weighted by age (half-life 3 years); citation rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_dac.csv",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "7dc3353444083c2401bb2cef20a94b376f6bbf0553f27886e3e43877a6130d8b",
+      "bytes": 12643,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most active DAC researchers in Europe (EU27 + UK, CH, NO, IS and other non-EU)."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_dac.json",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "9d20018e297787cf023d8eb9f7ab2a61751d84e84ecf78c4b10ad99daf97c2ca",
+      "bytes": 27753,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most active DAC researchers in Europe (EU27 + UK, CH, NO, IS and other non-EU)."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_cited_dac.csv",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "db92cca76a6761b9c730d141df6699e611c5e33ef0dd29aefbcba04f72495234",
+      "bytes": 25432,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most cited DAC researchers worldwide: citations to their CDR papers since 2021; activity rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_cited_dac.json",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "bab5990f0d3c90d5ffac978c2031ce02f40e6f6869fa69ab893c0deb9b6ff85d",
+      "bytes": 55817,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most cited DAC researchers worldwide: citations to their CDR papers since 2021; activity rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_cited_dac.csv",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "9b0104828134ef5a949bf25307c7cd8695f8c6855c75da6734ec6bd265de2b99",
+      "bytes": 12908,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most cited DAC researchers in Europe."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_cited_dac.json",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "e41f9a0b36a7d915257fe7f5a6adbe83c2979f06d03799650b1240544541ea63",
+      "bytes": 27963,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most cited DAC researchers in Europe."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_dac_papers.csv",
+      "dataset": "researchers",
+      "rows": 987,
+      "sha256": "362a7ab342b8f277ab6ed5a44d78cb2c3390f3afb3391915d1de1a16fc516384",
+      "bytes": 242579,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Every paper counted for the DAC top lists: one row per person and paper (ranks in the four lists, paper id, year, title, citations, pathway tags, link)."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_dac_papers.json",
+      "dataset": "researchers",
+      "rows": 987,
+      "sha256": "f1426278f09bc7267199fcb589cbf18537ee88f527e4b202d1a2fb89e831df30",
+      "bytes": 403502,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Every paper counted for the DAC top lists: one row per person and paper (ranks in the four lists, paper id, year, title, citations, pathway tags, link)."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_beccs.csv",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "281a9cbf4711ecb0e28426ecbcfdd328ab53a5015b7280500109b4745e662855",
+      "bytes": 25691,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most active BECCS researchers worldwide: CDR papers since 2021 weighted by age (half-life 3 years); citation rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_beccs.json",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "960b50e6a542627efb902038b7e01f253a81f36b62051ce9d2dcef74e65c7399",
+      "bytes": 56189,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most active BECCS researchers worldwide: CDR papers since 2021 weighted by age (half-life 3 years); citation rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_beccs.csv",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "42ae16d4fb2b3272cd284ee0a612445b5a9244715e279e2dcb1868f3c13fc42c",
+      "bytes": 13134,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most active BECCS researchers in Europe (EU27 + UK, CH, NO, IS and other non-EU)."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_beccs.json",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "7a2414cd21884e19bb338530765748d81046cfa5e8cd5d75a02a3c18a44ed439",
+      "bytes": 28236,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most active BECCS researchers in Europe (EU27 + UK, CH, NO, IS and other non-EU)."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_cited_beccs.csv",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "05fbe7d82ab8424146a797a966a18e91effcd93cad7f32ce80da74b3ef2f2b1b",
+      "bytes": 25533,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most cited BECCS researchers worldwide: citations to their CDR papers since 2021; activity rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_cited_beccs.json",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "891e79571d40936902a6f8019015d02d507a271ab9b8c5c3dee3dfa5b5b54346",
+      "bytes": 55896,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most cited BECCS researchers worldwide: citations to their CDR papers since 2021; activity rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_cited_beccs.csv",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "f235ea40e65a8ebd700ef2b78c174caf53e1a412bd44a4c32e9f247b47881785",
+      "bytes": 13170,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most cited BECCS researchers in Europe."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_cited_beccs.json",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "19dc42c9bd2ded3998326e731ad24a5c029ec26ff814bcebb250696220890fb5",
+      "bytes": 28221,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most cited BECCS researchers in Europe."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_beccs_papers.csv",
+      "dataset": "researchers",
+      "rows": 813,
+      "sha256": "984d8148da1c3609874803d25a9fd14b5a93b1d3702ddc9295816f0a24dbf716",
+      "bytes": 205307,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Every paper counted for the BECCS top lists: one row per person and paper (ranks in the four lists, paper id, year, title, citations, pathway tags, link)."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_beccs_papers.json",
+      "dataset": "researchers",
+      "rows": 813,
+      "sha256": "a2f11e173365dfbb032e154150cadc99d97fa4c9d2206dcd20f0513f219433c1",
+      "bytes": 337040,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Every paper counted for the BECCS top lists: one row per person and paper (ranks in the four lists, paper id, year, title, citations, pathway tags, link)."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_enhanced-weathering.csv",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "088b33f5efc445cf1247221ee59880456b2ab86529d39f5f556e33f451e8d848",
+      "bytes": 24894,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most active Enhanced Weathering researchers worldwide: CDR papers since 2021 weighted by age (half-life 3 years); citation rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_enhanced-weathering.json",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "5c7bd60012aac8942a8a8d781b7f4c612fb76d226e60213bab1f16e29309a3d4",
+      "bytes": 55380,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most active Enhanced Weathering researchers worldwide: CDR papers since 2021 weighted by age (half-life 3 years); citation rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_enhanced-weathering.csv",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "284b0ebf6b73f889c9ac3a8eee3d7d10290fe2ec23ddaf62a55f71e2dd057aa1",
+      "bytes": 12613,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most active Enhanced Weathering researchers in Europe (EU27 + UK, CH, NO, IS and other non-EU)."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_enhanced-weathering.json",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "e5f0111c1496aaf9925ce0720c1a7b95be47bc60572f49ae600b3e51ee68b750",
+      "bytes": 27727,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most active Enhanced Weathering researchers in Europe (EU27 + UK, CH, NO, IS and other non-EU)."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_cited_enhanced-weathering.csv",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "fdf6d62dcebf7542d62ae59c6570aaf03dd1236ffacdb78209b09ba3f0463ab8",
+      "bytes": 25637,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most cited Enhanced Weathering researchers worldwide: citations to their CDR papers since 2021; activity rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_cited_enhanced-weathering.json",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "a67726366e57085d71b8eeb4b1b4bd0d0bb93b7e337c132ee73b2f11c6ded429",
+      "bytes": 55998,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most cited Enhanced Weathering researchers worldwide: citations to their CDR papers since 2021; activity rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_cited_enhanced-weathering.csv",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "5ff680dc79e17dbd9b0ab85a25ace3ed287b8b37fb863695c7d20ba8fa3828eb",
+      "bytes": 12894,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most cited Enhanced Weathering researchers in Europe."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_cited_enhanced-weathering.json",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "04f740002347a8181ef24b61c8f6b5feaa09017db6289431a97155d23c5dc38e",
+      "bytes": 27953,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most cited Enhanced Weathering researchers in Europe."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_enhanced-weathering_papers.csv",
+      "dataset": "researchers",
+      "rows": 1843,
+      "sha256": "3a669e32201e246994671ca9f079a5b714cc288601d4306f6a38dfeb074c1cd2",
+      "bytes": 496391,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Every paper counted for the Enhanced Weathering top lists: one row per person and paper (ranks in the four lists, paper id, year, title, citations, pathway tags, link)."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_enhanced-weathering_papers.json",
+      "dataset": "researchers",
+      "rows": 1843,
+      "sha256": "2f6494814c7529404dc50b91323458f030f4165a8f02f04c7948f73a4b9bc42c",
+      "bytes": 792454,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Every paper counted for the Enhanced Weathering top lists: one row per person and paper (ranks in the four lists, paper id, year, title, citations, pathway tags, link)."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_ocean-cdr.csv",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "69cfb0fc50c5c5e8968a13f5cc93433375a99938f8f2e8595f81bc876347f621",
+      "bytes": 25949,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most active Ocean CDR researchers worldwide: CDR papers since 2021 weighted by age (half-life 3 years); citation rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_ocean-cdr.json",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "4d5cdc8d6ad376840cfc0181fd3f3df12c3365ff641e8601ef5b186dbca73e6d",
+      "bytes": 56407,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most active Ocean CDR researchers worldwide: CDR papers since 2021 weighted by age (half-life 3 years); citation rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_ocean-cdr.csv",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "5afa15256b54b87a519e56471e3c828d8217710c3028fbc36401b1ab5b0b96db",
+      "bytes": 13159,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most active Ocean CDR researchers in Europe (EU27 + UK, CH, NO, IS and other non-EU)."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_ocean-cdr.json",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "41d789412efa85cff7f2904243d81581f1dde61fcbc6efcb3a971d75b236015b",
+      "bytes": 28265,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most active Ocean CDR researchers in Europe (EU27 + UK, CH, NO, IS and other non-EU)."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_cited_ocean-cdr.csv",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "7dc755ea68220294106d19870980df5b516aa1cc96004f8871aa90223c161aea",
+      "bytes": 25893,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most cited Ocean CDR researchers worldwide: citations to their CDR papers since 2021; activity rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_cited_ocean-cdr.json",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "cf7f179881e2565aa4f5e51cf9e615eb263bb8d5b9d48aeb756689112c5199ec",
+      "bytes": 56258,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most cited Ocean CDR researchers worldwide: citations to their CDR papers since 2021; activity rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_cited_ocean-cdr.csv",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "ce5c8a5957050a1cf15eb12af1e89caba93148874b6206e13088a3c891c48828",
+      "bytes": 12983,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most cited Ocean CDR researchers in Europe."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_cited_ocean-cdr.json",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "46b5beac5c37e70319f2e9fb826b58f94bde4aee1c81af9df9c99f7c2ac2b884",
+      "bytes": 28036,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most cited Ocean CDR researchers in Europe."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_ocean-cdr_papers.csv",
+      "dataset": "researchers",
+      "rows": 1647,
+      "sha256": "cf2f5c0dc7a49bf016c02c447bbf10f522aead4057799b216bd15ca2407c45c2",
+      "bytes": 421406,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Every paper counted for the Ocean CDR top lists: one row per person and paper (ranks in the four lists, paper id, year, title, citations, pathway tags, link)."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_ocean-cdr_papers.json",
+      "dataset": "researchers",
+      "rows": 1647,
+      "sha256": "c807b12a5c85a336758695a300b10aaef8b88908a0cb8b42bc82eb57567649ad",
+      "bytes": 686767,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Every paper counted for the Ocean CDR top lists: one row per person and paper (ranks in the four lists, paper id, year, title, citations, pathway tags, link)."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_biochar.csv",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "ea06912455e942b6c40995370d808d5c636f41bf5b70b9515c3f9f30608c100d",
+      "bytes": 25533,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most active Biochar researchers worldwide: CDR papers since 2021 weighted by age (half-life 3 years); citation rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_biochar.json",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "ca3afff3121850c06a468b205916c560204e5dfec6c4856c209f73bc5ebcc923",
+      "bytes": 56001,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most active Biochar researchers worldwide: CDR papers since 2021 weighted by age (half-life 3 years); citation rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_biochar.csv",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "6cf33f9a25ff817a2eeb021ceddcb862bc4f080f217478ad47092f7a9049e344",
+      "bytes": 13020,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most active Biochar researchers in Europe (EU27 + UK, CH, NO, IS and other non-EU)."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_biochar.json",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "8f82d07f0e836ec2603d8194c429630f6b0e02aad1810ef202a9299fd59b2f09",
+      "bytes": 28120,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most active Biochar researchers in Europe (EU27 + UK, CH, NO, IS and other non-EU)."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_cited_biochar.csv",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "8eabfb6e5fe732ec538c66c1c11412a3439a46b0f870ae94a8532c96e0f5dbe2",
+      "bytes": 25272,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most cited Biochar researchers worldwide: citations to their CDR papers since 2021; activity rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_cited_biochar.json",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "c3d15a2c5cd0c3dd9945e49b40ffea9f645cb24f65b2ad590dd16150425bcc30",
+      "bytes": 55671,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most cited Biochar researchers worldwide: citations to their CDR papers since 2021; activity rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_cited_biochar.csv",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "54795ea7438320b609ddb290ed27c1d5864656007cc54448d68f9ed066806cc4",
+      "bytes": 13013,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most cited Biochar researchers in Europe."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_cited_biochar.json",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "dd92cccab3f0b52581b54b178ccecef2f8d0f4777f807b2006df395ba13e2b5e",
+      "bytes": 28064,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most cited Biochar researchers in Europe."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_biochar_papers.csv",
+      "dataset": "researchers",
+      "rows": 1675,
+      "sha256": "c73aa6e4bdbf0ed4c2103c915d25872e440a19f2aa3c0ba5255ba413fe2a2d1e",
+      "bytes": 446038,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Every paper counted for the Biochar top lists: one row per person and paper (ranks in the four lists, paper id, year, title, citations, pathway tags, link)."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_biochar_papers.json",
+      "dataset": "researchers",
+      "rows": 1675,
+      "sha256": "8699ef8912d43ec33b7bc560a5a5043800139e49887ff757e9aabf98b36963a5",
+      "bytes": 719341,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Every paper counted for the Biochar top lists: one row per person and paper (ranks in the four lists, paper id, year, title, citations, pathway tags, link)."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_cross-cutting-cdr.csv",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "4f3398af65dd9a36403c6ebadeb6031187d86746079290ecfe63bae58fdc92af",
+      "bytes": 26112,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most active Cross-cutting CDR researchers worldwide: CDR papers since 2021 weighted by age (half-life 3 years); citation rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_cross-cutting-cdr.json",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "fb5f08a42c015c6cf9063fc5a61b3e71e9da4ea6a84f2269fc4f69a5c5b48d84",
+      "bytes": 56572,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most active Cross-cutting CDR researchers worldwide: CDR papers since 2021 weighted by age (half-life 3 years); citation rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_cross-cutting-cdr.csv",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "b8774b264dbad632061018fa2d385acc177c7145b0471bc8bb16651135868442",
+      "bytes": 13435,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most active Cross-cutting CDR researchers in Europe (EU27 + UK, CH, NO, IS and other non-EU)."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_cross-cutting-cdr.json",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "6c30eaf3bbb15bcb70d215dca046579baa99e42181a9c08d2dc6d12e6fd58f64",
+      "bytes": 28531,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most active Cross-cutting CDR researchers in Europe (EU27 + UK, CH, NO, IS and other non-EU)."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_cited_cross-cutting-cdr.csv",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "927b62989879ec7ae89f26368af77558e3607d6518f33ce90bbe7e1d2e008c02",
+      "bytes": 26118,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most cited Cross-cutting CDR researchers worldwide: citations to their CDR papers since 2021; activity rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_cited_cross-cutting-cdr.json",
+      "dataset": "researchers",
+      "rows": 100,
+      "sha256": "1e34702089fad5da324b6613cbb82d69b8a97f89bbdf6d06acfad785296c863a",
+      "bytes": 56485,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 100 most cited Cross-cutting CDR researchers worldwide: citations to their CDR papers since 2021; activity rank included."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_cited_cross-cutting-cdr.csv",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "ea58048395ba224798a13085d0ee8ed3f2fb45bd1033e641e35f37ba3ca41cda",
+      "bytes": 13274,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most cited Cross-cutting CDR researchers in Europe."
+    },
+    {
+      "path": "/data/v1/2026-11/top50_europe_cited_cross-cutting-cdr.json",
+      "dataset": "researchers",
+      "rows": 50,
+      "sha256": "efde1b08b829aaebb3a67588aba1084e5faaa5517b3968bf66eefd7bf345c6d0",
+      "bytes": 28327,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Top 50 most cited Cross-cutting CDR researchers in Europe."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_cross-cutting-cdr_papers.csv",
+      "dataset": "researchers",
+      "rows": 1428,
+      "sha256": "fd9aaf9672c60708c92dd230c871768199624b02e5c179f82094fc82169f32e4",
+      "bytes": 356719,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Every paper counted for the Cross-cutting CDR top lists: one row per person and paper (ranks in the four lists, paper id, year, title, citations, pathway tags, link)."
+    },
+    {
+      "path": "/data/v1/2026-11/top100_cross-cutting-cdr_papers.json",
+      "dataset": "researchers",
+      "rows": 1428,
+      "sha256": "9674f4d1478f962a5f34b17e9e1548dc900f6a228119f48d3d41ba9b1c6e6c46",
+      "bytes": 587430,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Every paper counted for the Cross-cutting CDR top lists: one row per person and paper (ranks in the four lists, paper id, year, title, citations, pathway tags, link)."
+    },
+    {
+      "path": "/data/v1/2026-11/shops.csv",
+      "dataset": "shops",
+      "rows": 14,
+      "sha256": "ee9c5f5e71a1564acd67cfda4e9b28bdcae758bc700cfea455a5ca90f7d7d87c",
+      "bytes": 2795,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Shops where individuals can buy certified carbon removal, with prices."
+    },
+    {
+      "path": "/data/v1/2026-11/shops.json",
+      "dataset": "shops",
+      "rows": 14,
+      "sha256": "eb8f5c28006e3e77eae09229d9d4b8d327369b5c4df2a37e4a3ca3880eafb4b7",
+      "bytes": 5332,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Shops where individuals can buy certified carbon removal, with prices."
+    }
+  ]
+}
