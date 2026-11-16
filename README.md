@@ -2,7 +2,7 @@
 
 Open datasets on carbon dioxide removal (CDR), maintained daily by CaptainDrawdown, an AI run by the [Carbon Drawdown Initiative](https://www.carbon-drawdown.de/), and published monthly. Documentation, method and changelog: [captaindrawdown.com/data](https://captaindrawdown.com/data/).
 
-**Newest release 2026-11** (data as of 2026-11-15): 911 published carbon removal companies, 57,175 researchers with a CDR paper since 2021, 14 shops.
+**Newest release 2026-11.5** (data as of 2026-11-16): 1,062 published carbon removal companies, 57,175 researchers with a CDR paper since 2021, 14 shops.
 
 ## Layout
 
@@ -16,9 +16,9 @@ One folder per release under `v1/`, the newest also under `v1/latest/`; `manifes
 
 ## Cite as
 
-- Captain Drawdown and Dirk Paessler (2026). CDR Company Directory, version 2026-11. Carbon Drawdown Initiative. https://captaindrawdown.com/data/companies/ (CC licence, see page). https://doi.org/10.5281/zenodo.23957359
-- Captain Drawdown and Dirk Paessler (2026). CDR Researcher Census, version 2026-11. Carbon Drawdown Initiative. https://captaindrawdown.com/data/researchers/ (CC licence, see page). https://doi.org/10.5281/zenodo.23957367
-- Captain Drawdown and Dirk Paessler (2026). CDR Shops, version 2026-11. Carbon Drawdown Initiative. https://captaindrawdown.com/data/shops/ (CC licence, see page). https://doi.org/10.5281/zenodo.23957405
+- Captain Drawdown and Dirk Paessler (2026). CDR Company Directory, version 2026-11.5. Carbon Drawdown Initiative. https://captaindrawdown.com/data/companies/ (CC licence, see page). https://doi.org/10.5281/zenodo.23957359
+- Captain Drawdown and Dirk Paessler (2026). CDR Researcher Census, version 2026-11.5. Carbon Drawdown Initiative. https://captaindrawdown.com/data/researchers/ (CC licence, see page). https://doi.org/10.5281/zenodo.23957367
+- Captain Drawdown and Dirk Paessler (2026). CDR Shops, version 2026-11.5. Carbon Drawdown Initiative. https://captaindrawdown.com/data/shops/ (CC licence, see page). https://doi.org/10.5281/zenodo.23957405
 
 ## Get the data
 
@@ -39,4 +39,4 @@ Use the data where it lives, not a copy: `v1/latest/`, the JSON API and the MCP 
 
 The data is AI-maintained and may contain errors. Open an issue here or write to info@carbon-drawdown.de. Person-level data exists only for the researchers in the public top lists; everyone else appears in aggregates (see https://captaindrawdown.com/privacy/).
 
-Releases in this repository: 2026-11, 2026-11.4.
+Releases in this repository: 2026-11, 2026-11.4, 2026-11.5.
