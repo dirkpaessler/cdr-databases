@@ -78,8 +78,12 @@ INK_MUTED = "#56666b"
 LINE = "#d9dfde"
 PETROL = "#0e5a6a"
 SURFACE = "#ffffff"
-# One petrol ramp, light to dark (sequential = one hue), plus two greys.
-RAMP = ["#cfe3e7", "#8fbfc8", "#4b94a2", PETROL, "#083a45"]
+# Data scale: five steps of batlow, light to dark, plus two greys. batlow is one
+# of the Scientific colour maps by Fabio Crameri (perceptually uniform, readable
+# with colour-vision deficiency): https://www.fabiocrameri.ch/colourmaps/
+RAMP = ["#faccfa", "#f19d6b", "#818232", "#226061", "#011959"]
+RAMP_DARK = set(RAMP[2:])  # steps that take white labels
+PETROL_LIGHT = "#8fbfc8"   # second bar series, a category and not a scale
 ZERO = "#e4e8e9"          # EU member state without a published company
 OUTSIDE = "#f4f5f5"       # not an EU member state
 COMPANY_BINS = [(1, 2, "1 to 2"), (3, 9, "3 to 9"), (10, 29, "10 to 29"), (30, 10 ** 6, "30 or more")]
@@ -231,7 +235,7 @@ def draw_map(ax, shapes, values: dict[str, int], title: str) -> None:
                 best = (a, c)
         if best[1] and (best[0] >= LABEL_MIN_AREA or cc in LABEL_ALWAYS):
             dx, dy = NUDGE.get(cc, (0.0, 0.0))
-            dark = colour in RAMP[2:]
+            dark = colour in RAMP_DARK
             ax.text(best[1][0] + dx, best[1][1] + dy, f"{values.get(cc, 0):,}", ha="center", va="center",
                     fontsize=11, fontweight="semibold", color=SURFACE if dark else INK, zorder=4)
     # Malta is below the 110m resolution: a dot in its colour
@@ -298,7 +302,7 @@ def make_bars(tab, researchers, release: str, out: Path) -> Path:
     tot = [permanent(tab[cc]) for cc in order]
     h = 0.66
     ax.barh(y, nar, height=h, color=PETROL, label="BioCCS and DACCS", zorder=3)
-    ax.barh(y, oth, left=nar, height=h, color=RAMP[1],
+    ax.barh(y, oth, left=nar, height=h, color=PETROL_LIGHT,
             label="Biochar, enhanced weathering, mineralisation,\nocean CDR, biomass burial", zorder=3)
     xmax = max(tot)
     for yi, a, t in zip(y, nar, tot):
