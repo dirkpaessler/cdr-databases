@@ -233,11 +233,15 @@ def draw_map(ax, shapes, values: dict[str, int], title: str) -> None:
             a, c = area_centroid(r)
             if a > best[0]:
                 best = (a, c)
-        if best[1] and (best[0] >= LABEL_MIN_AREA or cc in LABEL_ALWAYS):
+        # A state with a company always carries its number, or the panel's
+        # labels do not add up to its headline; only small zeros go unlabelled.
+        small = best[0] < LABEL_MIN_AREA and cc not in LABEL_ALWAYS
+        if best[1] and (not small or values.get(cc, 0) > 0):
             dx, dy = NUDGE.get(cc, (0.0, 0.0))
             dark = colour in RAMP_DARK
             ax.text(best[1][0] + dx, best[1][1] + dy, f"{values.get(cc, 0):,}", ha="center", va="center",
-                    fontsize=11, fontweight="semibold", color=SURFACE if dark else INK, zorder=4)
+                    fontsize=11 - 2 if small else 11, fontweight="semibold",
+                    color=SURFACE if dark else INK, zorder=4)
     # Malta is below the 110m resolution: a dot in its colour
     mx, my = project(*MALTA)
     ax.scatter([mx], [my], s=40, color=bin_colour(values.get("MT", 0)), edgecolor=INK_MUTED, linewidth=0.6, zorder=3)
